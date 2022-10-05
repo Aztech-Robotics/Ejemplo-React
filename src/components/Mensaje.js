@@ -1,7 +1,8 @@
 function Mensaje(props) {
     return(
         <div>
-           {props.name}
+           {props.nombre}
+           {props.children}
             <h1>Vicky</h1>
         </div>
     );
